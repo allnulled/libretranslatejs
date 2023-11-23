@@ -6,7 +6,22 @@
   "scripts": {
     "test": "cd test && ./test.sh"
   },
-  "keywords": ["libretranslate","translation","free"],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "libretranslate",
+    "translation",
+    "free"
+  ],
+  "author": "allnulled",
+  "license": "WTFPL",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/libretranslatejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allnulled/libretranslatejs/issues"
+  },
+  "homepage": "https://github.com/allnulled/libretranslatejs#readme"
 }

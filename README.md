@@ -27,7 +27,8 @@ Tanto desde servidor como desde node.js, la API funciona igual.
 ```js
 const libretranslatejs = require("libretranslatejs");
 const translator = libretranslatejs(); // by default points to: { host: "127.0.0.1" , port: 5000 }
-const translation = await translator("Esto es un texto de ejemplo")
+const translation = await translator("Esto es un texto de ejemplo"); // by default sets: "es", "en"
+const translation2 = await translator("This is just an example", "en", "es");
 ```
 
 Si `libretranslatejs` llega a ejecutarse, se introduce la variable `libretranslatejs` tanto en `global` como en `window` como en `module.exports`.

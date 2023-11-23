@@ -1,0 +1,12 @@
+{
+  "name": "libretranslate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/libretranslate.js",
+  "scripts": {
+    "test": "cd test && ./test.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

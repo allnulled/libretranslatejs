@@ -1,12 +1,12 @@
 {
-  "name": "libretranslate",
+  "name": "libretranslatejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Una API para interactuar con un servidor LibreTranslate como máquina local y obtener traducciones desde un traductor gratuito sin límite.",
   "main": "src/libretranslate.js",
   "scripts": {
     "test": "cd test && ./test.sh"
   },
-  "keywords": [],
+  "keywords": ["libretranslate","translation","free"],
   "author": "",
   "license": "ISC"
 }

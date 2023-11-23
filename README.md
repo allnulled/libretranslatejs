@@ -1,5 +1,7 @@
 # libretranslate.js
 
+Una API para interactuar con un servidor LibreTranslate como máquina local y obtener traducciones desde un traductor gratuito sin límite.
+
 API (para node.js y navegadores) para interactuar con un servidor [LibreTranslate](https://libretranslate.com/) como máquina local y obtener traducciones desde un traductor gratuito.
 
 ## Requisitos
@@ -11,6 +13,12 @@ API (para node.js y navegadores) para interactuar con un servidor [LibreTranslat
 - `node`
 - `npm`
   - La web oficial, donde ambos están descargables. [https://nodejs.org/en/download](https://nodejs.org/en/download)
+
+## Instalación
+
+```sh
+npm i -s libretranslatejs
+```
 
 ## Uso
 
